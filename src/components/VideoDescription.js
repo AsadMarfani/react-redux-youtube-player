@@ -20,8 +20,8 @@ const VideoDescription = ({video}) => {
                 <iframe className="embed-responsive-item" src = {url} frameBorder="0" allowFullScreen></iframe>
             </div>
             <div className = "details">
-                <div> {video.snippet.title} </div>
-                <div> {video.snippet.description} </div>
+                <div> <p><b>Video Title : </b> {video.snippet.title}</p> </div>
+                <div> <p> <b>Video Desciption : </b> {video.snippet.description} </p> </div>
             </div>
         </div>
     );
