@@ -2,8 +2,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-bottom: 6rem;
-    margin-top: 5rem;
+    padding-bottom: 3rem;
+    margin-top: 3rem;
 }
 .search-bar input {
     width: 75%;
